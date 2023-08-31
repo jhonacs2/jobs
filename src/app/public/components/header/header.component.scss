@@ -4,4 +4,15 @@
   background-repeat: no-repeat;
   background-image: url("/assets/svg/bg-pattern-header.svg");
   border-bottom-left-radius: 9rem;
+  color: var(--text-color);
+
+  .header-container {
+    position: relative;
+    display: flex;
+
+    .header-text {
+      font-size: 3.2rem;
+      font-weight: 700;
+    }
+  }
 }
