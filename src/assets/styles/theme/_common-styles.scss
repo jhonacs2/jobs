@@ -8,6 +8,18 @@
   display: flex;
 }
 
+.d-align-content {
+  &-center {
+    align-content: center;
+  }
+}
+
+.d-align-items {
+  &-center {
+    align-items: center;
+  }
+}
+
 .d-justify-content {
   &-space-between {
     justify-content: space-between;
@@ -16,4 +28,28 @@
   &-space-around {
     justify-content: space-around;
   }
+}
+
+.d-height-100 {
+  height: 100%;
+}
+
+.d-border-0 {
+  border: none;
+}
+
+/*Input Text Styles*/
+.d-input-text {
+  width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-size: 1.5rem;
+  appearance: none;
+  padding: 1rem;
+  color: var(--text-color-secondary);
+}
+
+.d-input-text:enabled:focus {
+  outline: 0 none;
+  outline-offset: 0;
 }

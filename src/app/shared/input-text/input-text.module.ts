@@ -12,8 +12,10 @@ import {CommonModule} from '@angular/common';
 import {NgModel} from '@angular/forms';
 
 @Directive({
-  selector: '[dInputCheck]',
-  host: {}
+  selector: '[dInputText]',
+  host: {
+    class:'d-input-text'
+  }
 })
 export class dInputText implements DoCheck, AfterViewInit {
   @HostListener('input', ['$event'])

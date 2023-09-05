@@ -10,12 +10,16 @@ $light-grey: #F4F6F8;
 $gray: #9DAEC2;
 $dark-grey: #6E8098;
 
+body {
+  --icon-violet: #5964E0;
+}
+
 body.light {
   --primary-color: #{$violet};
   --primary-color-light: #{$light-violet};
   --text-color: #{$white};
   --text-color-secondary: #{$very-dark-blue};
-  --body-color:#{$white};
+  --body-color: #{$white};
 }
 
 body.dark {
@@ -23,5 +27,5 @@ body.dark {
   //--primary-color: #{$violet};
   --primary-color-light: #{$gray};
   --text-color: #{$white};
-  --body-color:#{$very-dark-blue};
+  --body-color: #{$very-dark-blue};
 }
