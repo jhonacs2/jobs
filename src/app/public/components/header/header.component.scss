@@ -9,7 +9,7 @@
   .header-container {
     position: relative;
     display: flex;
-    height: 100%;
+    height: calc(100% - 4rem);
 
     .header-text {
       font-size: 3.2rem;
@@ -20,7 +20,7 @@
       position: absolute;
       bottom: 0;
       left: 50%;
-      transform: translate(-50%, +50%);
+      transform: translate(-50%, calc(50% + 4rem));
       width: 100%;
     }
   }

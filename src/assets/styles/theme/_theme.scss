@@ -12,6 +12,9 @@ $dark-grey: #6E8098;
 
 body {
   --icon-violet: #5964E0;
+  --dark-grey: #6E8098;
+  --white: #{$white};
+  --very-dark-blue: #{$very-dark-blue};
 }
 
 body.light {
@@ -19,7 +22,7 @@ body.light {
   --primary-color-light: #{$light-violet};
   --text-color: #{$white};
   --text-color-secondary: #{$very-dark-blue};
-  --body-color: #{$white};
+  --body-color: #{$light-grey};
 }
 
 body.dark {
