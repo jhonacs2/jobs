@@ -4,10 +4,11 @@ import {HomeComponent} from '../views/home/home.component';
 export const PUBLIC_ROUTES: Routes = [
   {
     path: '',
+    component: HomeComponent,
     children: [
       {
         path: 'home',
-        component: HomeComponent
+        loadChildren: () => import('../modules/job/job.module').then(m => m.JobModule)
       },
       {
         path: '**',
