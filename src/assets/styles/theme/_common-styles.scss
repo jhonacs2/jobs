@@ -7,14 +7,58 @@ FONT SIZE SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-.container {
+.d-container {
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
 
+.d-font-size {
+  &-m {
+    font-size: 1.2rem;
+  }
+
+  &-l {
+    font-size: 1.4rem;
+  }
+
+  &-x {
+    font-size: 1.6rem;
+  }
+
+  &-xl {
+    font-size: 1.8rem;
+  }
+
+  &-xxl {
+    font-size: 2rem;
+  }
+}
+
+.d-font-weight {
+  &-bold {
+    font-weight: 700;
+  }
+}
+
+.d-position {
+  &-r {
+    position: relative;
+  }
+
+  &-a {
+    position: absolute;
+  }
+}
+
 .d-flex {
   display: flex;
+}
+
+.d-flex-direction {
+  &-column {
+    flex-direction: column;
+  }
 }
 
 .d-flex-gap {
@@ -24,6 +68,14 @@ FONT SIZE SYSTEM (px)
 
   &-l {
     gap: 1.2rem;
+  }
+
+  &-x {
+    gap: 1.6rem;
+  }
+
+  &-xl {
+    gap: 2.4rem;
   }
 }
 

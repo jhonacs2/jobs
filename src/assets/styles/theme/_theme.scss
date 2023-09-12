@@ -12,7 +12,7 @@ $dark-grey: #6E8098;
 
 body {
   --violet: #5964E0;
-  --dark-grey: #6E8098;
+  --dark-grey: #{$dark-grey};
   --white: #{$white};
   --very-dark-blue: #{$very-dark-blue};
 }
